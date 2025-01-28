@@ -114,10 +114,4 @@ Simplemente iniciar la clase Principal, donde se iniciarán dos hilos de dos cla
    - Ejecuta la clase `Cliente`.
    - Se conecta al servidor e intercambia mensajes seguros.
 
----
 
-## 📜 Licencia
-
-
-
-¿Hay algo más que desees agregar o personalizar?
