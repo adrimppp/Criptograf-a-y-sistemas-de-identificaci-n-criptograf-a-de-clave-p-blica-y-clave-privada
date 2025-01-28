@@ -105,9 +105,10 @@ El programa simula un sistema seguro de intercambio de mensajes que incluye:
 ## 📦 Cómo Usar
 
 - Simplemente iniciar la clase Principal, donde se iniciarán dos hilos de dos clases:
-- Iniciar el .jar con :
+- Iniciar el .jar con (desde el directorio del .jar):
    ```bash
    java -jar "./Proyecto Unidad 6.jar"
+
 
 1. **Servidor**:
    - Ejecuta la clase `Servidor`.
