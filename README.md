@@ -113,5 +113,9 @@ Simplemente iniciar la clase Principal, donde se iniciarán dos hilos de dos cla
 2. **Cliente**:
    - Ejecuta la clase `Cliente`.
    - Se conecta al servidor e intercambia mensajes seguros.
+---  
+## 🚨 Importante
+El servidor utiliza un bloque while(true) en su ejecución principal. Este enfoque está diseñado para gestionar de manera hipotética un escenario con múltiples peticiones. Sin embargo, en este momento, solo se maneja una conexión en el hilo principal.
+
 
 
