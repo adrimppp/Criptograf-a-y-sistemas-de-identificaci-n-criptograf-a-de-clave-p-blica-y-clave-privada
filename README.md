@@ -104,7 +104,10 @@ El programa simula un sistema seguro de intercambio de mensajes que incluye:
 
 ## 📦 Cómo Usar
 
-Simplemente iniciar la clase Principal, donde se iniciarán dos hilos de dos clases:
+- Simplemente iniciar la clase Principal, donde se iniciarán dos hilos de dos clases:
+- Iniciar el .jar con :
+   bash
+    java -jar '.\Proyecto Unidad 6.jar'
 
 1. **Servidor**:
    - Ejecuta la clase `Servidor`.
@@ -116,6 +119,7 @@ Simplemente iniciar la clase Principal, donde se iniciarán dos hilos de dos cla
 ---  
 ## 🚨 Importante
 El servidor utiliza un bloque while(true) en su ejecución principal. Este enfoque está diseñado para gestionar de manera hipotética un escenario con múltiples peticiones. Sin embargo, en este momento, solo se maneja una conexión en el hilo principal.
+Por lo que para salir necesitará hacer un Ctrl+C desde consola
 
 
 
